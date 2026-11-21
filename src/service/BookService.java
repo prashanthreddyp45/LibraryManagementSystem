@@ -58,7 +58,7 @@ public class BookService {
     // Search books by author
     public List<book> searchByAuthor(String author) {
 
-        if (author == null || author.trim().isEmpty()) {
+        if (author == null || author.trim().isEmpty()) { //change
             return new ArrayList<>();
         }
 
