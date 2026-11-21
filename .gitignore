@@ -1,0 +1,8 @@
+out/
+*.class
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+config.properties
